@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>My Movie Recomendations</title>
+    </head>
+    <body>
+        <div class="logo-container container">
+            <img class="logo" alt="Logo" src="https://picsum.photos/300/300" />
+        </div>
+
+        <hr class="container" />
+        <button onclick="handleClick()" id="my-button">Click Me!</button>
+        
+        <input  id="my-input" />
+        <div class="container">
+            <h1>My Movie Recomendations</h1>
+            <div class="movie-list-container">
+                <div class="movie-card-1 movie-card">
+                    <h3 class="movie-title">The Godfather</h3>
+                </div>
+                <div class="movie-card-2 movie-card">
+                    <h3 class="movie-title">Harry Potter</h3>
+                </div>
+                <div class="movie-card-3 movie-card">
+                    <h3 class="movie-title">The Dark Knight</h3>
+                </div>
+                <div class="movie-card-4 movie-card">
+                    <h3 class="movie-title">Fight Club</h3>
+                </div>
+                <div class="movie-card-5 movie-card">
+                    <h3 class="movie-title">Hereditary</h3>
+                </div>
+                <div class="movie-card-6 movie-card">
+                    <h3 class="movie-title">John Wick</h3>
+                </div>
+            </div>
+
+            
+        </div>
+
+        <script>
+
+            function handleClick() {
+                const myInput = document.getElementById("my-input")
+                console.log(typeof(myInput.value))
+            }
+           
+
+        </script>
+
+        <link rel="stylesheet" href="movies.css" />
+    </body>
+</html>

@@ -1,3 +1,84 @@
-ul {
-    list-style-type: '\128512';
+/* body {
+    height: 100vh;
+}
+.red-box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.blue-box {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+.cyan-box {
+    width: 100px;
+    height: 100px;
+    background-color: cyan;
+}
+
+.slate-box {
+    width: 100px;
+    height: 100px;
+    background-color: slateblue;
+}
+
+.tomato-box {
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+}
+
+.parent-box {
+    display: grid;
+} */
+
+
+body {
+    height: 100vh;
+}
+.red-box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+  
+}
+
+.blue-box {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+  
+}
+
+.cyan-box {
+    width: 100px;
+    height: 100px;
+    background-color: cyan;
+   
+}
+
+.slate-box {
+    width: 100px;
+    height: 100px;
+    background-color: slateblue;
+  
+}
+
+.tomato-box {
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+   
+}
+
+.parent-box {
+    display: grid;
+    grid-template-columns: repeat(10, 100px);
+}
+
+.project-list {
+    
 }
